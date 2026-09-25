@@ -1,0 +1,11 @@
+[package]
+name = "healthy-archlinux-rust"
+version = "1.0.0"
+edition = "2021"
+description = "Read-only Arch Linux diagnostics"
+license = "MIT"
+
+[[bin]]
+name = "hc-rs"
+path = "src/main.rs"
+
